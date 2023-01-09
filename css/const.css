@@ -144,9 +144,13 @@ nav a{
 }
 .aboutus-info{
     background-color: #ffcc00;
-    max-width:26rem ;
-    width: fit-content;
-    padding: 2rem 0;
+    max-width:100% ;
+    width: 50rem;
+    padding: .5rem 0;
+}
+
+.fa-check-square-o{
+    font-size: 5rem;
 }
 
 .dd{
@@ -168,6 +172,20 @@ nav a{
     font-size: .9em;
     /* padding: 0 5rem; */
 }
+
+.ddhh{
+
+}
+.hh{
+    position: relative;
+    top: -1.2rem;
+}
+
+.ddspan{
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+}
 .aboutus-stats{
     background-color: #d2d2d2;
     width:100vw;
@@ -181,7 +199,8 @@ nav a{
     font-weight: 370;
     border-bottom: 1px solid ;
     width: fit-content;
-    line-height: 7rem;
+    line-height: -2rem;
+    
     
 }
 .aboutus-stats p{
